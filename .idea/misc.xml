@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/drawable-v24/icon_btn_back.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/drawable-v24/icon_btn_more.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/drawable-v24/icon_profile_sample.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/drawable-v24/select_round_corner.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/drawable/select__round__corner__disable.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/drawable/select_round_corner_enable.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_clothes.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_clothes_add.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_clothes_detail.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_clothes_more.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_intro.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_meber_detail_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_member_detail.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/activity_member_management.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/layout_clothes_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/layout_profile_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/layout_title.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/listview_item_clothes.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/listview_item_member.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/FashionistaManager/app/src/main/res/layout/listview_item_more_clothes.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FashionistaManager</string>
+    <string name="server_network_exception">인터넷 연결 상태를 확인해주세요.</string>
+
+    <string name="copy_right">© 2021 fashionista Mall ALL RIGHTS RESERVED</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
