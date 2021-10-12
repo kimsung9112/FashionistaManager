@@ -13,9 +13,6 @@
             android:name=".MemberDetailActivity"
             android:exported="true" />
         <activity
-            android:name=".MeberDetailMainActivity"
-            android:exported="true" />
-        <activity
             android:name=".MemberManagementActivity"
             android:exported="true" />
         <activity
@@ -34,10 +31,10 @@
             android:name=".login.LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".login.IntroActivity"
+            android:name=".main.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".main.MainActivity"
+            android:name=".login.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

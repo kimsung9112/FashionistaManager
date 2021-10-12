@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/logout_btm"
+        android:id="@+id/logout_btn"
         android:layout_width="60dp"
         android:layout_height="29dp"
         android:layout_marginBottom="8dp"
@@ -105,8 +105,8 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="106dp"
+        android:layout_width="379dp"
+        android:layout_height="119dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="276dp"
@@ -117,6 +117,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
+            android:id="@+id/user_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#FFAAAA"
@@ -126,6 +127,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/clothe_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -134,6 +136,7 @@
             android:textColor="@color/theme_sub_color"
             android:textSize="18dp"
             android:textStyle="bold" />
+
     </LinearLayout>
 
 
