@@ -19,22 +19,20 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clothes_add_layout"
         android:layout_width="match_parent"
-        android:layout_height="280dp"
+        android:layout_height="220dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layout_title">
 
-        <Button
-            android:layout_width="167dp"
-            android:layout_height="84dp"
-            android:layout_marginTop="96dp"
-            android:background="@color/theme_color"
-            android:text="이미지추가"
-            android:textSize="15dp"
-            android:textStyle="bold"
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/app_logo" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -49,6 +47,61 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/clothes_add_layout">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/select_round_corner"
+                android:fontFamily="@font/noto_sans_bold"
+                android:text="티셔츠"
+                android:textColor="@color/theme_sub_color"
+                android:textSize="12dp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/select_round_corner"
+                android:fontFamily="@font/noto_sans_bold"
+                android:text="아우터"
+                android:textColor="@color/theme_sub_color"
+                android:textSize="12dp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/select_round_corner"
+                android:fontFamily="@font/noto_sans_bold"
+                android:text="후드"
+                android:textColor="@color/theme_sub_color"
+                android:textSize="12dp" />
+
+            <Button
+                android:layout_marginBottom="4dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/select_round_corner"
+                android:fontFamily="@font/noto_sans_bold"
+                android:text="바지"
+                android:textColor="@color/theme_sub_color"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
 
         <EditText
             android:id="@+id/clothes_num_edt"
@@ -93,7 +146,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
 
             <Button
                 android:layout_width="60dp"
@@ -163,17 +217,31 @@
 
     <Button
         android:id="@+id/btn_add_clothes_info"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="184dp"
+        android:layout_height="49dp"
         android:layout_marginHorizontal="15dp"
         android:layout_marginBottom="28dp"
         android:background="@color/theme_sub_color"
         android:fontFamily="@font/noto_sans_regular"
-        android:text="추가"
-        android:textColor="@color/theme_color"
+        android:text="상품추가"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/getImg_btn"
+        android:layout_width="184dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/theme_sub_color"
+        android:fontFamily="@font/noto_sans_regular"
+        android:text="이미지추가"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_add_clothes_info"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

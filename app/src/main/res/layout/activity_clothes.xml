@@ -44,15 +44,17 @@
                 app:layout_constraintStart_toStartOf="parent">
 
                 <Button
+                    android:id="@+id/shirts_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#FFAAAA"
-                    android:text="T-SHIRST"
+                    android:text="T-SHIRTS"
                     android:textColor="@color/theme_sub_color"
                     android:textSize="18dp"
                     android:textStyle="bold" />
 
                 <Button
+                    android:id="@+id/hood_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -63,6 +65,7 @@
                     android:textStyle="bold" />
 
                 <Button
+                    android:id="@+id/outer_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -73,6 +76,7 @@
                     android:textStyle="bold" />
 
                 <Button
+                    android:id="@+id/pants_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"

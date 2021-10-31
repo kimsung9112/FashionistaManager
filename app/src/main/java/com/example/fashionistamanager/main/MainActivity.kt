@@ -39,7 +39,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>({ ActivityMainBinding.inf
         }
 
         binding.clotheBtn.setOnClickListener {
-            val intent = Intent(this, ClothesActivity::class.java)
+            val intent = Intent(this, ClothesAddActivity::class.java)
             startActivity(intent)
         }
     }

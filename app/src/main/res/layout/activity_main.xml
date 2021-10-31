@@ -116,15 +116,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
-        <Button
-            android:id="@+id/user_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFAAAA"
-            android:text="회원관리"
-            android:textColor="@color/theme_sub_color"
-            android:textSize="18dp"
-            android:textStyle="bold" />
+        /
 
         <Button
             android:id="@+id/clothe_btn"
@@ -132,7 +124,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="#F19292"
-            android:text="상품관리"
+            android:text="상품추가"
             android:textColor="@color/theme_sub_color"
             android:textSize="18dp"
             android:textStyle="bold" />
