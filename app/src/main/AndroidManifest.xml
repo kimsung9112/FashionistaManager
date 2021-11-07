@@ -13,7 +13,7 @@
             android:name=".MemberDetailActivity"
             android:exported="true" />
         <activity
-            android:name=".MemberManagementActivity"
+            android:name=".main.MemberManagementActivity"
             android:exported="true" />
         <activity
             android:name=".main.ClothesAddActivity"

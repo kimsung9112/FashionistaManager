@@ -1,4 +1,4 @@
-package com.example.fashionistamanager
+package com.example.fashionistamanager.main
 
 import android.os.Bundle
 import com.example.fashionistamanager.base.BaseActivity

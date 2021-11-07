@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/theme_color"
-    tools:context=".MemberManagementActivity">
+    tools:context=".main.MemberManagementActivity">
 
     <include
         android:id="@+id/title_layout"

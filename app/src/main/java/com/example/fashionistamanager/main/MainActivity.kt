@@ -3,9 +3,6 @@ package com.example.fashionistamanager.main
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import com.example.fashionistamanager.MemberDetailActivity
-import com.example.fashionistamanager.MemberManagementActivity
-import com.example.fashionistamanager.R
 import com.example.fashionistamanager.base.BaseActivity
 import com.example.fashionistamanager.databinding.ActivityMainBinding
 import com.example.fashionistamanager.login.IntroActivity
@@ -33,10 +30,10 @@ class MainActivity : BaseActivity<ActivityMainBinding>({ ActivityMainBinding.inf
             startActivity(intent)
         }
 
-        binding.userBtn.setOnClickListener {
-            val intent = Intent(this, MemberManagementActivity::class.java)
-            startActivity(intent)
-        }
+//        binding.userBtn.setOnClickListener {
+//            val intent = Intent(this, MemberManagementActivity::class.java)
+//            startActivity(intent)
+//        }
 
         binding.clotheBtn.setOnClickListener {
             val intent = Intent(this, ClothesAddActivity::class.java)
