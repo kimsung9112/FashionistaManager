@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.viewbinding.ViewBinding
 import com.example.fashionistamanager.R
-import com.study.poly.fashionista.utility.movePrevAnim
+import com.example.fashionistamanager.utility.movePrevAnim
 
 abstract class BaseActivity<B : ViewBinding>(private val bindingFactory: (LayoutInflater) -> B) :
     AppCompatActivity() {

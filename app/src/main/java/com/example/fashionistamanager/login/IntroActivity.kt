@@ -7,8 +7,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.example.fashionistamanager.base.BaseActivity
-import com.study.poly.fashionista.utility.moveNextAnim
-import com.study.poly.fashionista.utility.toast
+import com.example.fashionistamanager.utility.moveNextAnim
+import com.example.fashionistamanager.utility.toast
 import com.example.fashionistamanager.R
 import com.example.fashionistamanager.databinding.ActivityIntroBinding
 import com.example.fashionistamanager.main.MainActivity

@@ -7,5 +7,5 @@ data class ClothesSaveModel(
     val Shop: String = "",
     val Page_ID: String = "",
     val TitlePath: String = "",
-    val size: ArrayList<String>
+    val Size: ArrayList<String>
 )

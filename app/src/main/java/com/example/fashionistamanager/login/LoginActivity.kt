@@ -2,10 +2,13 @@ package com.example.fashionistamanager.login
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import com.example.fashionistamanager.base.BaseActivity
 import com.example.fashionistamanager.databinding.ActivityLoginBinding
 import com.example.fashionistamanager.main.MainActivity
+import com.example.fashionistamanager.utility.Constant
+import com.example.fashionistamanager.utility.hideUI
+import com.example.fashionistamanager.utility.moveNextAnim
+import com.example.fashionistamanager.utility.visibleUI
 
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth

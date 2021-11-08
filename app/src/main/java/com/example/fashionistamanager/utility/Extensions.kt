@@ -1,4 +1,4 @@
-package com.study.poly.fashionista.utility
+package com.example.fashionistamanager.utility
 
 import android.app.Activity
 import android.content.Context
