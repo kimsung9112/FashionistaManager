@@ -175,29 +175,30 @@ class ClothesAddActivity :
         val timeStamp = SimpleDateFormat("yyyyMMdd+HHmmss").format(Date())
         val imageFileName = "JPEG_" + timeStamp + "_.png"
         val storageMainRef = storage.reference.child("main_img/").child(path).child(imageFileName)
-//        val storageProductRef =
-//            storage.reference.child("product_img/").child(path).child(imageFileName)
+        val storageProductRef = storage.reference.child("product_img/").child(path).child(imageFileName)
+
+//        Titlepath = storageMainRef.downloadUrl.toString()
 
         imageUri?.let { uri ->
-            storageMainRef.putFile(uri).await()
-            storageMainRef.putFile(uri).await().let {
-                Titlepath = storageMainRef.downloadUrl.toString()
-                storageMainRef.downloadUrl.await().let {
+            storageProductRef.putFile(uri).await()
+            storageMainRef.putFile(uri).await().also {
+                storageMainRef.downloadUrl.await().let { imgPath ->
+
                     val model = ClothesSaveModel(
                         Page_ID,
                         Name,
                         Shop,
                         Info,
-                        Titlepath,
+                        imgPath.toString(),
                         Size
                     )
 
-                    fireStore.collection(category).document().set(model).await().let {
+                    fireStore.collection(category).document().set(model).await().also {
                         withContext(Dispatchers.Main) {
+                            toast("추가완료")
+                            val intent = Intent(this@ClothesAddActivity, MainActivity::class.java)
+                            startActivity(intent)
                         }
-                        toast("추가완료")
-                        val intent = Intent(this, MainActivity::class.java)
-                        startActivity(intent)
                     }
                 }
             }
