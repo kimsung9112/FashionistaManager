@@ -185,10 +185,10 @@ class ClothesAddActivity :
                 storageMainRef.downloadUrl.await().let { imgPath ->
 
                     val model = ClothesSaveModel(
-                        Page_ID,
+                        Info,
                         Name,
                         Shop,
-                        Info,
+                        Page_ID,
                         imgPath.toString(),
                         Size
                     )
