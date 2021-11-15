@@ -42,6 +42,7 @@ class ClothesAddActivity :
     private lateinit var Info: String
     private lateinit var Name: String
     private lateinit var Shop: String
+    private lateinit var url: String
     private lateinit var Page_ID: String
     private lateinit var Titlepath: String
     private var Size = ArrayList<String>()
@@ -70,7 +71,6 @@ class ClothesAddActivity :
             categoryCheck()
             sizeCheck()
             checkEmpty()
-
         }
     }
 
@@ -142,22 +142,17 @@ class ClothesAddActivity :
     private fun checkEmpty() = with(binding) {
 
         Page_ID = clothesNumEdt.text.toString()
-        if (clothesNumEdt.length() == 0) {
-            toast("빈칸을채워주세요")
-        }
         Name = clothesNameEdt.text.toString()
-        if (clothesNameEdt.length() == 0) {
-            toast("빈칸을채워주세요")
-        }
         Shop = clothesShopEdt.text.toString()
-        if (clothesShopEdt.length() == 0) {
-            toast("빈칸을채워주세요")
-        }
         Info = clothesInfoEdt.text.toString()
-        if (clothesInfoEdt.length() == 0) {
+        url = clothesUrlEdt.text.toString()
+        if (clothesNumEdt.length() == 0 || clothesNameEdt.length() == 0
+            || clothesShopEdt.length() == 0 || clothesInfoEdt.length() == 0
+            || clothesUrlEdt.length() == 0) {
             toast("빈칸을채워주세요")
+        }else{
+            sendData()
         }
-        sendData()
     }
 
     private fun sendData() {
@@ -177,7 +172,6 @@ class ClothesAddActivity :
         val storageMainRef = storage.reference.child("main_img/").child(path).child(imageFileName)
         val storageProductRef = storage.reference.child("product_img/").child(path).child(imageFileName)
 
-//        Titlepath = storageMainRef.downloadUrl.toString()
 
         imageUri?.let { uri ->
             storageProductRef.putFile(uri).await()
@@ -188,6 +182,7 @@ class ClothesAddActivity :
                         Info,
                         Name,
                         Shop,
+                        url,
                         Page_ID,
                         imgPath.toString(),
                         Size

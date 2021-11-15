@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="18dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -180,6 +180,17 @@
             android:layout_marginTop="2dp"
             android:fontFamily="@font/noto_sans_regular"
             android:hint="#김성현, #김성현, #김성현"
+            android:includeFontPadding="false"
+            android:textColor="@color/theme_sub_color"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/clothes_url_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/noto_sans_regular"
+            android:hint="url"
             android:includeFontPadding="false"
             android:textColor="@color/theme_sub_color"
             android:textSize="15dp" />
